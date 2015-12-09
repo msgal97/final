@@ -44,3 +44,7 @@ div {
     border: 10px solid navy;
     margin: 25px;
 }
+
+h2 {
+  position: center;
+}
