@@ -37,3 +37,10 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+div {
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
