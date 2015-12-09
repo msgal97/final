@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -40,22 +37,3 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-</style>
-</head>
-<body>
-
-<h2>Dropdown Menu</h2>
-<p>Move the mouse over the button to open the dropdown menu.</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div>
-
-
-</body>
-</html>
