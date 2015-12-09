@@ -46,5 +46,6 @@ div {
 }
 
 h2 {
-  position: absolute;
+  text-align: center;
+  color: navy;
 }
