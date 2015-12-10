@@ -22,17 +22,16 @@ $fate = "";
    if (empty($_POST["fate"])) {
      $fateErr = "your fate is required";
    } else {
-     //$fate = test_input($_POST["fate"]);
-     $fate;
+     $fate = test_input($_POST["fate"]);
    }
 
 
-//function test_input($data) {
+function test_input($data) {
    //$data = trim($data);
    //$data = stripslashes($data);
    //$data = htmlspecialchars($data);
-   //return $data;
-//}
+   return $data;
+}
 ?>
 
 <h2>How Are You Surviving Finals???</h2>
