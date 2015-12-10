@@ -3,7 +3,7 @@
 <head>
 <style>
 h2 {color: navy; font-size: 60px; text-align: center;}
-h3 (color: navy; font-size: 30px; text-align: center;)
+h3 {color: navy; font-size: 30px; text-align: center;}
 .error {color: #FF0000;}
 </style>
 </head>
