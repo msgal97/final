@@ -22,7 +22,8 @@ $fate = "";
    if (empty($_POST["fate"])) {
      $fateErr = "your fate is required";
    } else {
-     $fate = test_input($_POST["fate"]);
+     //$fate = test_input($_POST["fate"]);
+     $fate;
    }
 
 
