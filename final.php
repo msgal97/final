@@ -6,7 +6,7 @@ h2 {color: navy; font-size: 60px; text-align: center;}
 h3 {color: navy; font-size: 30px; text-align: center;}
 input {color: navy; font-size: 30px; text-align: center;}
 form {color: green; font-size: 30px; text-align: center;}
- {color: green; font-size: 30px; text-align: center;}
+
 
 .error {color: #FF0000;}
 </style>
@@ -27,9 +27,9 @@ $fate = "";
 
 
 function test_input($data) {
-   //$data = trim($data);
-   //$data = stripslashes($data);
-   //$data = htmlspecialchars($data);
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
    return $data;
 }
 ?>
@@ -49,7 +49,7 @@ function test_input($data) {
 <?php
 echo "<h3>Your Destination Awaits:</h3>";
 
-echo "<h3>$fate;</h3>"
+echo "<h3>$fate</h3>"
 ?>
 
 </body>
