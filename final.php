@@ -11,8 +11,8 @@ h3 {color: navy; font-size: 30px; text-align: center;}
 
 <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $fateErr = $websiteErr = "";
-$name = $email = $fate = $comment = $website = "";
+$fateErr = "";
+$fate = "";
 
 
    if (empty($_POST["fate"])) {
