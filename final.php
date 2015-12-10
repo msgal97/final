@@ -69,8 +69,8 @@ function test_input($data) {
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
    <br><br>
 
-   <input type="radio" name="fate" <?php if (isset($fate) && $fate=="Skipping through a field of daisies!") echo "checked";?>  value="Skipping through a field of daisies!">You are going places kid!
-   <input type="radio" name="fate" <?php if (isset($fate) && $fate=="Not enough coffee to survive!") echo "checked";?>  value="Not enough coffee to survive!">Procrastination got the best of you!
+   <input type="radio" name="fate" <?php if (isset($fate) && $fate=="Skipping through a field of daisies!") echo "checked";?>  value="You are going places kid!">Skipping through a field of daisies!
+   <input type="radio" name="fate" <?php if (isset($fate) && $fate=="Not enough coffee to survive!") echo "checked";?>  value="Procrastination got the best of you!">Not enough coffee to survive!
    <span class="error">* <?php echo $fateErr;?></span>
    <br><br>
    <input type="submit" name="submit" value="Submit">
