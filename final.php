@@ -9,8 +9,8 @@
 
 <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $genderErr = $websiteErr = "";
-$name = $email = $gender = $comment = $website = "";
+$nameErr = $emailErr = $fateErr = $websiteErr = "";
+$name = $email = $fate = $comment = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
    if (empty($_POST["name"])) {
@@ -49,10 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      $comment = test_input($_POST["comment"]);
    }
 
-   if (empty($_POST["gender"])) {
-     $genderErr = "Gender is required";
+   if (empty($_POST["fate"])) {
+     $fateErr = "fate is required";
    } else {
-     $gender = test_input($_POST["gender"]);
+     $fate = test_input($_POST["fate"]);
    }
 }
 
@@ -68,7 +68,7 @@ function test_input($data) {
 
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
    <br><br>
-   
+
    <input type="radio" name="fate" <?php if (isset($gender) && $gender=="Skipping through a field of daisies!") echo "checked";?>  value="You are going places kid!">Female
    <input type="radio" name="fate" <?php if (isset($gender) && $gender=="Not enough coffee to survive!") echo "checked";?>  value="Procrastination got the best of you!">Male
    <span class="error">* <?php echo $genderErr;?></span>
