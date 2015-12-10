@@ -3,6 +3,7 @@
 <head>
 <style>
 h2 {color: navy; font-size: 60px; text-align: center;}
+h3 (color: navy; font-size: 30px; text-align: center;)
 .error {color: #FF0000;}
 </style>
 </head>
@@ -42,7 +43,7 @@ function test_input($data) {
 </form>
 
 <?php
-echo "<h2>Your Destination:</h2>";
+echo "<h3>Your Destination Awaits:</h3>";
 
 echo $fate;
 ?>
