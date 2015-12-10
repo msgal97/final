@@ -49,7 +49,7 @@ function test_input($data) {
 <?php
 echo "<h3>Your Destination Awaits:</h3>";
 
-echo $fate;
+//echo $fate;
 ?>
 
 </body>
