@@ -6,7 +6,7 @@ h2 {color: navy; font-size: 60px; text-align: center;}
 h3 {color: navy; font-size: 30px; text-align: center;}
 input {color: navy; font-size: 30px; text-align: center;}
 form {color: green; font-size: 30px; text-align: center;}
-
+span {color: green; font-size: 30px; text-align: center;}
 
 .error {color: #FF0000;}
 </style>
@@ -15,8 +15,8 @@ form {color: green; font-size: 30px; text-align: center;}
 
 <?php
 // define variables and set to empty values
-//$fateErr = "";
-//$fate = "";
+$fateErr = "";
+$fate = "";
 
 
    if (empty($_POST["fate"])) {
@@ -49,7 +49,7 @@ function test_input($data) {
 <?php
 echo "<h3>Your Destination Awaits:</h3>";
 
-//echo $fate;
+echo $fate;
 ?>
 
 </body>
