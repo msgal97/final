@@ -65,28 +65,21 @@ function test_input($data) {
 ?>
 
 <h2>How Are You Surviving Finals???</h2>
-<p><span class="error">* required field.</span></p>
+
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
    <br><br>
-   Gender:
-   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="Skipping through a field of daisies!") echo "checked";?>  value="female">Female
-   <input type="radio" name="gender" <?php if (isset($gender) && $gender=="Not enough coffee to survive!") echo "checked";?>  value="male">Male
+   
+   <input type="radio" name="fate" <?php if (isset($gender) && $gender=="Skipping through a field of daisies!") echo "checked";?>  value="You are going places kid!">Female
+   <input type="radio" name="fate" <?php if (isset($gender) && $gender=="Not enough coffee to survive!") echo "checked";?>  value="Procrastination got the best of you!">Male
    <span class="error">* <?php echo $genderErr;?></span>
    <br><br>
    <input type="submit" name="submit" value="Submit">
 </form>
 
 <?php
-echo "<h2>Your Input:</h2>";
-echo $name;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $website;
-echo "<br>";
-echo $comment;
-echo "<br>";
-echo $gender;
+echo "<h2>Your Destination:</h2>";
+
+echo $fate;
 ?>
 
 </body>
