@@ -2,7 +2,9 @@
 <html>
 <head>
 <style>
-<link rel="stylesheet" type="text/css" href="final.css">
+.h2 {text-align: center;
+color: navy;
+font-size: 60px;}
 .error {color: #FF0000;}
 </style>
 </head>
