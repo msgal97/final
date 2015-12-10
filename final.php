@@ -6,7 +6,7 @@ h2 {color: navy; font-size: 60px; text-align: center;}
 h3 {color: navy; font-size: 30px; text-align: center;}
 input {color: navy; font-size: 30px; text-align: center;}
 form {color: green; font-size: 30px; text-align: center;}
-span {color: green; font-size: 30px; text-align: center;}
+ {color: green; font-size: 30px; text-align: center;}
 
 .error {color: #FF0000;}
 </style>
@@ -26,12 +26,12 @@ $fate = "";
    }
 
 
-function test_input($data) {
-   $data = trim($data);
-   $data = stripslashes($data);
-   $data = htmlspecialchars($data);
-   return $data;
-}
+//function test_input($data) {
+   //$data = trim($data);
+   //$data = stripslashes($data);
+   //$data = htmlspecialchars($data);
+   //return $data;
+//}
 ?>
 
 <h2>How Are You Surviving Finals???</h2>
