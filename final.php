@@ -19,7 +19,7 @@ $name = $email = $fate = $comment = $website = "";
    } else {
      $fate = test_input($_POST["fate"]);
    }
-}
+
 
 function test_input($data) {
    $data = trim($data);
