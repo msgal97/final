@@ -15,8 +15,8 @@ form {color: green; font-size: 30px; text-align: center;}
 
 <?php
 // define variables and set to empty values
-$fateErr = "";
-$fate = "";
+//$fateErr = "";
+//$fate = "";
 
 
    if (empty($_POST["fate"])) {
